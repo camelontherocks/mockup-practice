@@ -1,0 +1,83 @@
+body {    /*  set global font family */ 
+  
+  font-family: sans-serif;  
+}
+
+
+header h1 {   /* make bigger, add space above, center it, change color */
+  
+  padding-top: 20px;
+  background-color: white;
+  color: mediumpurple;
+  text-align: center;
+  font-size: 40px;
+}
+
+a {  /* make all text color white, and remove the underline */
+  
+  color: white;
+  text-decoration: none;
+}
+
+.main-nav {  /* insert some space above it */
+  
+   padding-top: 10px 
+}
+
+  nav li{    /* change background color, remove bullets, border on each individual nav element. float the links, center content within the links.  Width on links */ 
+    
+    float: left;
+    list-style-type: none;
+    padding: 5px 50px 5px 50px;
+    border-right: 2px solid darkblue;
+    background-color: rebeccapurple;
+  }
+
+aside {   /* clear float, change background color, float */
+  
+  clear: left;
+  float: left;
+  padding-top: 75px;
+  padding-bottom: 150px;
+  background-color: mediumpurple
+  
+  }
+
+aside li {
+  
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top:15px
+}
+
+article {    /* background-color, add padding on top and bottom */
+
+  background-color: gainsboro;
+  padding-top: 70px;
+  padding-bottom: 75px;
+}
+    
+figure {   /* center it */
+   
+  margin-left: 380px;
+  margin-right: 120px;
+}  
+
+figcaption {  /* allow some flow beyond left and right edges of photo, space it below the photo a bit, make font smaller */
+  
+  text-align: center;
+  margin-top: 5%;
+  margin-left: -10%;
+  margin-right: 15%;
+  font-size: 12px;
+}
+
+footer {  /* images centered on the page. */
+  
+  margin: 5% 30% 
+}
+
+footer a {
+
+  margin-left: 15%
+}
